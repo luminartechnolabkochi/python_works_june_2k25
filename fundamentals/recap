@@ -1,0 +1,71 @@
+Python
+=======
+
+variables => represents a memory location
+    
+    syntax: variable_name = value
+
+data_types => represents type of value the variable holds
+
+            :int,float,string,bool, list,set,tuple,dictionary
+
+operators => are symbols for performing various operations
+
+            :A.O (+,-,*,/,%,//,**)
+
+            :R.O (<,>,<=,>=,==,!=)
+
+            :LO (and, or ,not)
+
+            :identity operator (is)
+
+            :membership operator (in)
+
+functions =>
+         
+         print()  => display message in console
+
+         type(object) => return data type of object`
+
+         input() => read value through console
+
+
+DecsionMaking
+
+
+
+
+
+if condition1 and condition2:
+
+    stmt
+
+elif condtion:
+    stmt
+
+else:
+    default
+
+
+
+PINGPONG
+
+read a number from user
+
+display PING if number is  / 3
+display PONG if number is  / 5
+display PINGPONG if number is  / 15
+
+
+number 15 PINGPONG
+
+9 PING
+
+
+
+
+
+
+
+
+

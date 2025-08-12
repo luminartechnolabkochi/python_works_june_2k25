@@ -1,0 +1,18 @@
+
+# builtins.py
+    # def print("message",end="\n") display message in console
+    # def input("message") read value through console
+    # len(object)  return lenth of the object
+    # type(object) return data type of object
+    # range(start,stop,step)
+    # def max(iterable) retun largest element inside iterable
+    # def min(iterable) retun smallest element inside iterable
+    # def sum(iterable) return total of iterable
+    # def avg(iterable) return vg of iterable XXXXXXXX
+
+# random.py
+
+    # def randint(start,stop) return an random number 
+
+
+
