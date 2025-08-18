@@ -8,7 +8,7 @@
     # def max(iterable) retun largest element inside iterable
     # def min(iterable) retun smallest element inside iterable
     # def sum(iterable) return total of iterable
-    # def avg(iterable) return vg of iterable XXXXXXXX
+    #def sorted(iterable,reverse=True) 
 
 # random.py
 

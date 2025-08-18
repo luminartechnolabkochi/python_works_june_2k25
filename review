@@ -1,0 +1,139 @@
+Python Features
+    >simple and easy to learn
+    >opensource
+    >large community support
+    >object oriented 
+    >interpreted
+
+Python Applications
+    
+    >Web applivcation development
+    >datascience and analatics
+    >ML and AI
+    >desktop application
+    >IOT
+
+Python variables
+
+    def
+
+        representing a memory location
+
+    syntax 
+
+        variable_name = value
+
+python datatypes
+
+    
+    def 
+
+        used for representing the value that variable can hold
+
+    int,float,str,bool,None
+    list,set,tuple,dict
+
+
+python operators
+    :are symbols used for perfoming various operaions
+
+    Arithmetic operator: (+,-,*,/,%,//,**)
+
+    Relational Operator:(<,>,<=,>=,==,!=) return bool
+
+    Logical operator:(and,or,not)
+
+    identity operator:(is)
+
+    membership operator:(in)
+
+    Assignment operator:(=,+=,-=,,,,,,)
+
+Decision making
+
+        if...else
+
+        if...elif...else
+
+        def:
+            execute block of statments base on condition
+
+        syntax:
+
+            if condition1:
+                    stmt1
+
+            elif condtion2:
+                    stmt2
+
+            else:
+                default stmt
+
+looping stmts
+
+        while,for
+
+        def:
+            iterate block of code repeated number of time
+
+        
+        syntax:
+
+            initialization
+
+            while condition:
+
+                loop body
+
+                incr/decr
+
+            for i in range(0,10):
+
+                print(i)
+
+
+functions 
+
+        def:
+            block of stmts used to perform a specific task
+
+        syntax
+
+            def function_name(param1,parm2,,,,,):
+
+                function body
+
+                return value
+
+            calling function 
+
+            function_name(arg1,arg2,,,)
+
+mutable and immutable
+
+
+
+string 
+
+    def : sequence of characters
+
+    methods:
+
+
+
+list [] list()
+
+set 
+
+tuple (),tuple(),immutable
+
+dict {key:value,key:value,key:value}
+
+
+
+expenses_list=[12000,13000,14000,11000,12000,12000,13000,14000,11000]
+<!--    -->       0    1     2    3     4
+
+expense_dict ={"jan":12000,"feb":13000,"march":14000,"april":11000,"jan":1200}
+
+<!-- april -->

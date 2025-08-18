@@ -1,0 +1,5 @@
+
+word="RACECAR"
+
+
+# collection dictionary
