@@ -1,31 +1,35 @@
-# word_count 
 
+text="this is a python program to find most recursive word this python program is simple "
 
-text = "hello hai hello hai hai"
-words = text.split(" ")#['hello', 'hai', 'hello', 'hai', 'hai']
+word_count = {}#{"this":2,}
 
-wc = {}#{"hello":2,"hai":1}
+words = text.split() 
 
-for w in words:#w=hello
+for w in words:
 
-    if w in wc:#"hello" in wc
+    if w in word_count:
 
-        wc[w]+=1
+        word_count[w]+=1
 
     else:
 
-        wc[w]=1
+        word_count[w]=1
 
-print(wc)
+print(word_count)#{'this': 2, 'is': 2, 'a': 1, 'python': 2, 'program': 2, 'to': 1, 'find': 1, 'most': 1, 'recursive': 1, 'word': 1, 'simple': 1}
 
-#text="ABCABB"
 
-# display first recursive character
 
-# A
+# method1 
 
-# dictionary methods
+# srt_wc=sorted(word_count,reverse=True,key=word_count.get)
 
-    
+max_val = max(word_count.values())
 
-    
+for k,v in word_count.items():
+
+    if v == max_val:
+
+        print(k,v)
+
+
+# lambda functions
