@@ -1,1 +1,1 @@
-line
+ min(all_employees,key=lambda e:e.get("salary"
