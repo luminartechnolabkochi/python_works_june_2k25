@@ -20592,15 +20592,9 @@ most_populated_country = max(countries,key=lambda country:country.get("populatio
 print(most_populated_country.get("name"))
 
 least_populated_country = min(countries,key=lambda country:country.get("population") )
-# get_country_with_english_lang()
 
 
-#P country with most number of borders
 
-
-#P countries with language as english
-
-#P conuntry with maximum area
 
 
 

@@ -10,6 +10,23 @@ sequence[start:stop:step]
 """
 
 
-word = "Luminar"
-#       012345
+word = "pythonprogramming"
+#       01234567890123456
 
+sliced_word = word[:6] # skip start => starts from beginning
+
+print(sliced_word)
+
+sliced_word2=word[6:]
+
+print(sliced_word2)
+
+
+sliced_word3 = word[::2]
+
+print(sliced_word3)
+
+
+reverse_word=word[::-1]
+
+print(reverse_word)
