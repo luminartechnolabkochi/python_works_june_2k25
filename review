@@ -238,6 +238,7 @@
     #git remote add name remote_path => remote repository local add
     #git remote -v => list all remote repository
     #git branch => list all branches   
+    # git pull origin master => cahnges from remote repository
 
 
 
