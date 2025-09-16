@@ -1,139 +1,240 @@
-Python Features
-    >simple and easy to learn
-    >opensource
-    >large community support
-    >object oriented 
-    >interpreted
+# Python Features
+#     >simple and easy to learn
+#     >opensource
+#     >large community support
+#     >object oriented 
+#     >interpreted
 
-Python Applications
+# Python Applications
+#     >Web applivcation development
+#     >datascience and analatics
+#     >ML and AI
+#     >desktop application
+#     >IOT
+
+# .py => python interpreter
+# >python --version
+# python location : where python
+# dynamically typed
+
+# Python variables
+
+#     def
+
+#         representing a memory location
+
+#     syntax 
+
+#         variable_name = value
+
+# python datatypes
+
     
-    >Web applivcation development
-    >datascience and analatics
-    >ML and AI
-    >desktop application
-    >IOT
+#     def 
 
-Python variables
+#         used for representing the value that variable can hold
 
-    def
-
-        representing a memory location
-
-    syntax 
-
-        variable_name = value
-
-python datatypes
-
-    
-    def 
-
-        used for representing the value that variable can hold
-
-    int,float,str,bool,None
-    list,set,tuple,dict
+#     int,float,str,bool,None
+#     list,set,tuple,dict
 
 
-python operators
-    :are symbols used for perfoming various operaions
+# python operators
+#     :are symbols used for perfoming various operaions
 
-    Arithmetic operator: (+,-,*,/,%,//,**)
+#     Arithmetic operator: (+,-,*,/,%,//,**)
 
-    Relational Operator:(<,>,<=,>=,==,!=) return bool
+#     Relational Operator:(<,>,<=,>=,==,!=) return bool
 
-    Logical operator:(and,or,not)
+#     Logical operator:(and,or,not)
 
-    identity operator:(is)
+#     identity operator:(is)
 
-    membership operator:(in)
+#     membership operator:(in)
 
-    Assignment operator:(=,+=,-=,,,,,,)
+#     Assignment operator:(=,+=,-=,,,,,,)
 
-Decision making
+# Decision making
 
-        if...else
+#         if...else
 
-        if...elif...else
+#         if...elif...else
 
-        def:
-            execute block of statments base on condition
+#         def:
+#             execute block of statments base on condition
 
-        syntax:
+#         syntax:
 
-            if condition1:
-                    stmt1
+#             if condition1:
+#                     stmt1
 
-            elif condtion2:
-                    stmt2
+#             elif condtion2:
+#                     stmt2
 
-            else:
-                default stmt
+#             else:
+#                 default stmt
 
-looping stmts
+# looping stmts
 
-        while,for
+#         while,for
 
-        def:
-            iterate block of code repeated number of time
+#         def:
+#             iterate block of code repeated number of time
 
         
-        syntax:
+#         syntax:
 
-            initialization
+#             initialization
 
-            while condition:
+#             while condition:
 
-                loop body
+#                 loop body
 
-                incr/decr
+#                 incr/decr
 
-            for i in range(0,10):
+#             for i in range(0,10):
 
-                print(i)
-
-
-functions 
-
-        def:
-            block of stmts used to perform a specific task
-
-        syntax
-
-            def function_name(param1,parm2,,,,,):
-
-                function body
-
-                return value
-
-            calling function 
-
-            function_name(arg1,arg2,,,)
-
-mutable and immutable
+#                 print(i)
 
 
-
-string 
-
-    def : sequence of characters
-
-    methods:
+#       break : exit from loop
+#       continue:skip current iteration
 
 
+# functions 
 
-list [] list()
+#         def:
+#             block of stmts used to perform a specific task
 
-set 
+#         syntax
 
-tuple (),tuple(),immutable
+#             def function_name(param1,parm2,,,,,):
 
-dict {key:value,key:value,key:value}
+#                 function body
+
+#                 return value
+
+#             calling function 
+
+#             function_name(arg1,arg2,,,)
+
+#lambda function:
+    # def
+        # single line anonymous function with one expression
+    #syntax
+        #lambda p1,p2:expression
+# recursion
+    #def 
+        #function call itself
+    #syntax
+        #def recursive_function(p):
+            # base condition
+        
+            # recusive_function(p)
+
+
+# mutable and immutable
 
 
 
-expenses_list=[12000,13000,14000,11000,12000,12000,13000,14000,11000]
-<!--    -->       0    1     2    3     4
+# string 
 
-expense_dict ={"jan":12000,"feb":13000,"march":14000,"april":11000,"jan":1200}
+#     def : sequence of characters
 
-<!-- april -->
+#     methods:
+
+
+
+# list [] list()
+
+# set 
+
+# tuple (),tuple(),immutable
+
+# dict {key:value,key:value,key:value}
+
+# slicing extract part of a collection or sequence
+    # [start:stop:step]
+
+# comprehension easy way for creating list,set,dictionary from sequence 
+
+# nesetd collection
+    #list of list
+    #list of dictionary
+
+# file I/O
+    #read,write,append
+    # open()
+
+# object oriented programming
+    #defnition
+    #class
+    # object
+    #self
+    # super()
+    #__init__() => constructor
+    # __str__()=> string representation of object
+    #inheritance
+        #single inheritance 
+        #multilevel
+        #multiple 
+    #polymorphism
+        #method overloading => same method name different number of parameters
+        #method overriding=>                        
+                            
+                # customize behaviour in child class without changing parent class
+
+                # * To provide specific implimentation of a method that is already defined in parent class 
+
+    #abstraction
+            #hiding implimentation details
+            #abc.py => ABC,@abstract_method
+    
+    #different type of methods
+        #instance method  (self)
+        #class method (cls) @class_method
+        #static method () @static method
+
+
+                        
+# variable length argument method 
+    # *args,**kwargs
+    #*args => non keyword argument method receives any number of parms as tuple
+    #**kwargs => keyword argument method receives any number of params as dictionary
+
+
+# Error handling
+
+    #1.syntax error 2.runtime error (Exception)
+    #runtime errors handle
+            #try:doubt ful code
+            #except: handling code
+            #finally:clean up processing
+            #raise:custom errors throw 
+            #assert: debugging 
+
+#modules import 
+    #from ...import 
+    #copy.py => copy(),deepcopy()
+        #copy()=> shallow copy => copies outer objects
+        #deepcopy()=> copies both outer and nesetd objects
+
+# __name__ == "__main__"
+
+
+
+
+#GIT and GITHUB
+    # version control system
+    #allows developers to track every changes in code block
+    #git init => initilize git repository
+    #git add -A => adding all changes to staging area
+    #git commit -m "commit message" => staged files to local repository
+    #git push -u name branch => local repository => remote repository
+    #git status => list all untracked files
+    #git remote add name remote_path => remote repository local add
+    #git remote -v => list all remote repository
+    #git branch => list all branches   
+
+
+
+

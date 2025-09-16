@@ -9,6 +9,7 @@
     # def min(iterable) retun smallest element inside iterable
     # def sum(iterable) return total of iterable
     #def sorted(iterable,reverse=True) 
+    # def enumerate()
 
 # random.py
 
