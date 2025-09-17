@@ -206,7 +206,7 @@
 
     #1.syntax error 2.runtime error (Exception)
     #runtime errors handle
-            #try:doubt ful code
+            #try:doubtful code
             #except: handling code
             #finally:clean up processing
             #raise:custom errors throw 
@@ -241,5 +241,16 @@
     # git pull origin master => cahnges from remote repository
 
 
+# PIP (package installer for python)
+    #list all pacakes => pip list
+    # command for  installing pacakge => pip install pacakage_name
+
+# virtual environment
+    # isolated environment for specific project or application
+
+
+# to be discuss
+    #assert
+    # __name__
 
 
